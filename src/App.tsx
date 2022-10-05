@@ -1,24 +1,45 @@
-import React from "react";
+import { Canvas, Category, Title } from "./components";
 import "./App.css";
 
-function App() {
+const hairImageList = [
+  {
+    key: "shorthair",
+    src: "img/단발머리.png"
+  },
+  {
+    key: "braidshair",
+    src: "img/땋은머리.png"
+  },
+  {
+    key: "longhair",
+    src: "img/긴머리.png"
+  }
+];
+
+const expresstionImageList = [
+  {
+    key: "cute",
+    src: "img/표정1.png"
+  },
+  {
+    key: "happy",
+    src: "img/표정2.png"
+  },
+  {
+    key: "cool",
+    src: "img/표정3.png"
+  }
+];
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title />
+      <Canvas />
+      <Category imagelist={hairImageList} />
+      <Category imagelist={expresstionImageList} />
     </div>
   );
-}
+};
 
 export default App;
