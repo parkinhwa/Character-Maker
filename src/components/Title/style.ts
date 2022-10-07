@@ -4,6 +4,7 @@ export const TitleContainer = styled.div`
   width: 90%;
   margin: auto;
   height: 15vh;
+  min-height: 60px;
 `
 
 export const Title = styled.span`

@@ -9,6 +9,7 @@ export const Canvas = styled.div`
   align-item: center;
   justify-content: center;
   border: solid 1px #e6e6e6;
+  min-height: 240px;
 `;
 
 export const Picture = styled.div`
