@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Canvas = styled.div`
-  width: 90%;
+  width: 100%;
   height: 35vh;
-  margin: auto;
   position: relative;
   background-color: white;
   display: flex;
