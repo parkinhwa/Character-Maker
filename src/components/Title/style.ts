@@ -1,8 +1,18 @@
 import styled from "@emotion/styled";
 
-export const Title = styled.div`
-  height: 15vh;
-  font-size: 3.5rem;
-  text-align: center;
+export const TitleContainer = styled.div`
+  width: 90%;
   margin: auto;
+  height: 15vh;
+`
+
+export const Title = styled.span`
+  line-height: 15vh;
+  font-size: 3.5rem;
+  @media (max-width: 500px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 300px) {
+    font-size: 2rem;
+  }
 `
