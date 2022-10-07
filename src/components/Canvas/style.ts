@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Canvas = styled.div`
-  width: 93%;
-  height: 40%;
+  width: 90%;
+  height: 35vh;
   margin: auto;
   position: relative;
   background-color: white;
