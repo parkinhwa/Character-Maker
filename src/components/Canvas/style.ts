@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 
 export const Canvas = styled.div`
   width: 100%;
-  height: 35vh;
   position: relative;
   background-color: white;
   display: flex;
