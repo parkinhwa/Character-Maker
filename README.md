@@ -12,4 +12,4 @@
 - React
 - Context API
 - mui
-- eslint $ prettier
+- eslint & prettier
