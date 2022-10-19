@@ -7,6 +7,7 @@ export const Category = styled.div`
   margin-top: 20px;
   justify-content: space-between;
   min-height: 120px;
+  overflow: auto;
 `;
 
 export const StyledCard = styled(Card)`
@@ -14,7 +15,6 @@ export const StyledCard = styled(Card)`
   max-width: 20vh;
   height: 20vh;
   cursor: pointer;
-  overflow: hidden;
   min-width: 120px;
   min-height: 120px;
 `;
